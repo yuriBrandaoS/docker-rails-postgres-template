@@ -1,24 +1,15 @@
-# README
+# Docker-ruby-postgres
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é um template para subir o Ruby com o banco de dados Postgres.
 
-Things you may want to cover:
+## Instalação
 
-* Ruby version
+Você precisa ter o docker compose. Caso não tenha, instale [aqui](https://docs.docker.com/compose/install/).
 
-* System dependencies
+```bash
+docker-compose build
+docker-compose up -d
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
